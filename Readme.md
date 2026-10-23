@@ -8,17 +8,22 @@ Description: Found information Disclosure in this project where anyone can trave
 
 Steps to reproduce:
 
-1.  setup the project and go through https://localhost/intern
-![POC(images/db_1.png)]
+1. setup the project and go through https://localhost/intern
+
+![POC](images/db_1.png)
 
 2. go to /department.sql and sql file will be downloaded.
-![POC(images/db_2.png)]
+
+![POC](images/db_2.png)]
 
 3. Open it with any editor tool and sensitive info can be viewed.
-![POC(images/db_3.png)]
+
+![POC](images/db_3.png)]
 
 Impact:
 
 Leak of sensitive information and exposure of data.
 
-Recommendation: restrict the path through /department.sql file 
+Recommendation: 
+
+restrict the path through /department.sql file 
